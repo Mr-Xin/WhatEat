@@ -1,0 +1,36 @@
+//
+//  HCPrefix.pch
+//  HoldCoin
+//
+//  Created by 辛峰 on 2018/7/7.
+//  Copyright © 2018年 随写. All rights reserved.
+//
+
+#ifndef HCPrefix_pch
+#define HCPrefix_pch
+
+/// >>> 基础框架
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+/// >>> 其他配置
+#import "HCConfig.h"
+#import "HCDefine.h"
+#import "HCConst.h"
+#import "HCEnum.h"
+#import "HCUrlConst.h"
+#import "HCAdditionsHeader.h"
+
+/// >>> 全屏侧反
+#import "UINavigationController+FDFullscreenPopGesture.h"
+
+/// >>> 路由管理器
+#import "WERouterManager.h"
+/// >>> 布局
+#import <Masonry.h>
+/// >>> 上下拉刷新
+#import "MJRefresh.h"
+/// >>> toast
+//#import "HBProgressHUD.h"
+
+#endif /* HCPrefix_pch */
